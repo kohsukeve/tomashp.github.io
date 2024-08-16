@@ -1,1 +1,299 @@
-<html>	<head>		<meta http-equiv="content-type" content="text/html;charset=x-sjis">		<meta name="generator" content="Adobe GoLive 4">		<title>PJƒ‰ƒbƒNABOUT</title>		<csactions>			<csaction name="B4E216157" class="Open Window" type="ONEVENT" val0="gainen1.html" val1 val2="435" val3="525" val4="true" val5="true" val6="false" val7="false" val8="false" val9="false" val10="false">			<csaction name="B4E216158" class="Open Window" type="ONEVENT" val0="closed1.html" val1 val2="640" val3="490" val4="true" val5="true" val6="false" val7="false" val8="false" val9="false" val10="false">			<csaction name="B4E216159" class="Open Window" type="ONEVENT" val0="open1.html" val1 val2="610" val3="505" val4="true" val5="true" val6="false" val7="false" val8="false" val9="false" val10="false">			<csaction name="B4E2161510" class="Open Window" type="ONEVENT" val0="zentai1.html" val1 val2="695" val3="370" val4="true" val5="true" val6="false" val7="false" val8="false" val9="false" val10="false">		</csactions>		<csscriptdict>			<script><!--CSStopExecution = false;CSInit = new Array;function CSScriptInit() {if(typeof(skipPage) != "undefined") { if(skipPage) return; }idxArray = new Array;for(var i=0;i<CSInit.length;i++)	idxArray[i] = i;CSAction2(CSInit, idxArray);}CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);function IsIE() { return CSAg.indexOf("MSIE") > 0;}function CSIEStyl(s) { return document.all.tags("div")[s].style; }function CSNSStyl(s) { return CSFindElement(s,0); }function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];	var curDoc = ly ? ly.document : document; var elem = curDoc[n];	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}	return elem;}function CSClickReturn () {	var bAgent = window.navigator.userAgent; 	var bAppName = window.navigator.appName;	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))		return true; // dont follow link	else return false; // dont follow link}function CSButtonReturn () {	var bAgent = window.navigator.userAgent; 	var bAppName = window.navigator.appName;	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))		return false; // follow link	else return true; // follow link}CSIm = new Object();function CSIShow(n,i) {	if (document.images) {		if (CSIm[n]) {			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}			if(i != 0)				self.status = CSIm[n][3];			else				self.status = " ";			return true;		}	}	return false;}function CSILoad(action) {	im = action[1];	if (document.images) {		CSIm[im] = new Object();		for (var i=2;i<5;i++) {			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }			else CSIm[im][i-2] = 0;		}		CSIm[im][3] = action[5];	}}CSStopExecution = false;function CSAction(array) { 	return CSAction2(CSAct, array);}function CSAction2(fct, array) { 	var result;	for (var i=0;i<array.length;i++) {		if(CSStopExecution) return false; 		var actArray = fct[array[i]];		if(actArray == null) return false; 		var tempArray = new Array;		for(var j=1;j<actArray.length;j++) {			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {				if(actArray[j][0] == "VAR") {					tempArray[j] = CSStateArray[actArray[j][1]];				}				else {					if(actArray[j][0] == "ACT") {						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));					}				else					tempArray[j] = actArray[j];				}			}			else				tempArray[j] = actArray[j];		}					result = actArray[0](tempArray);	}	return result;}CSAct = new Object;function CSOpenWindow(action) {	var wf = "";		wf = wf + "width=" + action[3];	wf = wf + ",height=" + action[4];	wf = wf + ",resizable=" + (action[5] ? "yes" : "no");	wf = wf + ",scrollbars=" + (action[6] ? "yes" : "no");	wf = wf + ",menubar=" + (action[7] ? "yes" : "no");	wf = wf + ",toolbar=" + (action[8] ? "yes" : "no");	wf = wf + ",directories=" + (action[9] ? "yes" : "no");	wf = wf + ",location=" + (action[10] ? "yes" : "no");	wf = wf + ",status=" + (action[11] ? "yes" : "no");			window.open(action[1],action[2],wf);}// --></script>		</csscriptdict>		<csactiondict>			<script><!--CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button',/*URL*/'../HITOSI/photo1B.jpg',/*URL*/'',/*URL*/'','');CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button2',/*URL*/'../HITOSI/photo2B.jpg',/*URL*/'',/*URL*/'','');CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button3',/*URL*/'../HITOSI/photo3B.jpg',/*URL*/'',/*URL*/'','');CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button4',/*URL*/'../HITOSI/photo4B.jpg',/*URL*/'',/*URL*/'','');CSAct[/*CMP*/ 'B4E216157'] = new Array(CSOpenWindow,/*URL*/ 'gainen1.html','',435,525,true,true,false,false,false,false,false);CSAct[/*CMP*/ 'B4E216158'] = new Array(CSOpenWindow,/*URL*/ 'closed1.html','',640,490,true,true,false,false,false,false,false);CSAct[/*CMP*/ 'B4E216159'] = new Array(CSOpenWindow,/*URL*/ 'open1.html','',610,505,true,true,false,false,false,false,false);CSAct[/*CMP*/ 'B4E2161510'] = new Array(CSOpenWindow,/*URL*/ 'zentai1.html','',695,370,true,true,false,false,false,false,false);// --></script>		</csactiondict>	</head>	<body text="#333333" bgcolor="white" link="#3333ff" onload="CSScriptInit();">		<table width="700" border="0" cellspacing="0" cellpadding="0">			<tr height="314">				<td width="80" height="314" align="center" valign="top"><img height="600" width="78" src="../HITOSI/Theater.gif"></td>				<td width="10" bgcolor="#6699ff" align="center" valign="top" height="314"><img src="../../photo1/4_6.gif" width="4" height="8" align="BOTTOM" border="0" naturalsizeflag="3"></td>				<td width="610" align="center" height="314">					<table width="700" border="0" cellspacing="0" cellpadding="2">						<tr height="150">							<td align="center" height="150" width="610">								<dl>									<dt><font size="6" color="#5c68ed">©ìƒz[ƒ€ƒVƒAƒ^[</font>								</dl>								<center>									<p><font size="2" color="#5c68ed">[<csobj w="41" h="13" t="DateTime" format="ShortDate" region="14">00.3.26</csobj>XV]</font></p>									<p><font size="2">									<hr>									</font></center>							</td>						</tr>						<tr height="77">							<td bgcolor="white" width="610" align="center" height="77">								<table border="0" cellpadding="0" cellspacing="2" width="467">									<tr height="60">										<td height="60" colspan="2" align="center" valign="middle">©ì‚ÌŠi”[ƒ‰ƒbƒN‚Å‚·‚ªAæ‚è‹}‚¬Ê^‚¾‚¯UP‚µ‚Ä‚İ‚Ü‚µ‚½B											<p>»ì‰ß’ö‚É‚Â‚¢‚Ä‚ÍAŒã“ú‚ ‚ç‚½‚ß‚ÄŒfÚ‚µ‚Ü‚·B</td>									</tr>									<tr height="50">										<td height="50" colspan="2" align="center" valign="middle">											<dl>												<dt>‚»‚ê‚¼‚ê‚Ì‰æ‘œ‚ğƒNƒŠƒbƒN‚·‚é‚ÆŠg‘å‰æ‘œ‚ªŠJ‚«‚Ü‚·B												<dt><font size="2">(•Ê‚ÌƒEƒBƒ“ƒhƒE‚ªŠJ‚«‚Ü‚·)</font>												<dt><font size="2"><br>												</font>												<dt><font size="2">Java‚ªg‚¦‚È‚¢ƒuƒ‰ƒEƒU‚Ì•û‚Í‚±‚¿‚ç‚©‚ç</font>												<dt><a href="gainen1.html"><font size="2">[ŠT”O}]</font></a><font size="2">E<a href="closed1.html">[”à‚ğ•Â‚¶‚½‚Æ‚±‚ë]</a>E<a href="open1.html">[”à‚ğŠJ‚¢‚½‚Æ‚±‚ë]</a>E<a href="zentai1.html">[‘S‘Ì]</a></font>											</dl>										</td>									</tr>									<tr>										<td colspan="2" align="center" valign="middle">											<hr>										</td>									</tr>									<tr>										<td width="161" align="center" valign="middle" bgcolor="#6699ff"><font color="white">											<table border="0" cellpadding="0" cellspacing="2" width="155" height="150">												<tr height="72">													<td height="72" align="center" valign="middle"><font color="white">ŠT”O}</font></td>												</tr>												<tr height="50%">													<td valign="middle" height="50%"><font color="white" size="2">ƒsƒ“ƒN‚Ì•”•ª‚Í“d“®ƒŒƒ“ƒYƒVƒtƒgƒ†ƒjƒbƒg(—\’è)‚ÌˆÊ’u‚Å‚·B</font></td>												</tr>											</table>											</font></td>										<td width="300" align="center" valign="middle"><csobj w="200" h="218" t="Button" csmdown="B4E216157"><a href="#" onmouseover="return CSIShow(/*CMP*/'button',1)" onmouseout="return CSIShow(/*CMP*/'button',0)" onclick="return CSButtonReturn()" onmousedown="CSAction(new Array(/*CMP*/'B4E216157'));"><img src="../HITOSI/photo1B.jpg" width="200" height="218" name="button" border="0"></a></csobj></td>									</tr>									<tr>										<td colspan="2" align="center" valign="middle">											<hr>										</td>									</tr>									<tr>										<td width="161" align="center" valign="middle" bgcolor="#6699ff"><font color="white">											<table border="0" cellpadding="0" cellspacing="2" width="155" height="150">												<tr height="72">													<td height="72" align="center" valign="middle"><font color="white">”à‚ğ•Â‚¶‚½‚Æ‚±‚ë</font></td>												</tr>												<tr height="50%">													<td valign="middle" height="50%"><font color="white" size="2">‰º‚©‚çƒƒbƒNƒsƒ“‚ğ·‚µ‚ñ‚ÅŒÅ’è‚µ‚Ü‚·BŞ—¿‚ÍƒpƒCƒ“W¬ŞAƒvƒƒWƒFƒNƒ^[‚ğŠÜ‚Ş‘d—Ê‚Í24ƒLƒ(’I”Â‚ğŠÜ‚Ü‚¸)‚Å‚·B</font></td>												</tr>											</table>											</font></td>										<td width="300" align="center" valign="middle"><csobj w="300" h="199" t="Button" csmdown="B4E216158"><a href="#" onmouseover="return CSIShow(/*CMP*/'button2',1)" onmouseout="return CSIShow(/*CMP*/'button2',0)" onclick="return CSButtonReturn()" onmousedown="CSAction(new Array(/*CMP*/'B4E216158'));"><img src="../HITOSI/photo2B.jpg" width="300" height="199" name="button2" border="0"></a></csobj></td>									</tr>									<tr>										<td colspan="2" align="center" valign="middle">											<hr>										</td>									</tr>									<tr>										<td width="161" align="center" valign="middle" bgcolor="#6699ff"><font color="white">											<table border="0" cellpadding="0" cellspacing="2" width="100%" height="62">												<tr height="50%">													<td height="50%" align="center" valign="middle"><font color="white">”à‚ğŠJ‚¢‚½‚Æ‚±‚ë</font></td>												</tr>											</table>											</font></td>										<td width="300" align="center" valign="middle"><csobj w="200" h="150" t="Button" csmdown="B4E216159"><a href="#" onmouseover="return CSIShow(/*CMP*/'button3',1)" onmouseout="return CSIShow(/*CMP*/'button3',0)" onclick="return CSButtonReturn()" onmousedown="CSAction(new Array(/*CMP*/'B4E216159'));"><img src="../HITOSI/photo3B.jpg" width="200" height="150" name="button3" border="0"></a></csobj></td>									</tr>									<tr>										<td colspan="2" align="center" valign="middle">											<hr>										</td>									</tr>									<tr>										<td width="161" align="center" valign="middle" bgcolor="#6699ff"><font color="white">											<table border="0" cellpadding="0" cellspacing="2" width="155" height="122">												<tr height="45">													<td height="45" align="center" valign="middle"><font color="white">‘S‘Ì</font></td>												</tr>												<tr height="50%">													<td valign="middle" height="50%"><font color="white" size="2">’I”Â‚Í‚Ü‚¾‚Æ‚è‚Â‚¯‚Ä‚¢‚Ü‚¹‚ñB‹­“x‚ÍA—¼ƒTƒCƒh‚ÌƒXƒy[ƒX‚É‚É¬Šw¶‚ª‚Ô‚ç‰º‚ª‚Á‚Ä‚à‚Ñ‚­‚Æ‚à‚µ‚Ü‚¹‚ñI</font></td>												</tr>											</table>											</font></td>										<td width="300" align="center" valign="middle"><csobj w="300" h="128" t="Button" csmdown="B4E2161510"><a href="#" onmouseover="return CSIShow(/*CMP*/'button4',1)" onmouseout="return CSIShow(/*CMP*/'button4',0)" onclick="return CSButtonReturn()" onmousedown="CSAction(new Array(/*CMP*/'B4E2161510'));"><img src="../HITOSI/photo4B.jpg" width="300" height="128" name="button4" border="0"></a></csobj></td>									</tr>									<tr height="30">										<td align="center" valign="middle" height="30" colspan="2"><font color="#333333">»ì‰ß’ö‚ÍEEEE</font><font color="#333333" size="2">‚½‚¾‚¢‚Ü</font><font color="#333333"><img height="16" width="44" src="../HITOSI/kouzi.gif" align="texttop"></font></td>									</tr>								</table>								<p>								<hr>							</td>						</tr>					</table>				</td>			</tr>			<tr height="150">				<td width="80" height="150"></td>				<td width="10" bgcolor="#6699ff" height="150"><img src="../../photo1/4_6.gif" width="4" height="8" align="BOTTOM" border="0" naturalsizeflag="3"></td>				<td width="610" height="150" align="center" valign="middle">					<table border="0" cellpadding="0" cellspacing="5" width="500">						<tr height="30">							<td width="200" height="30" align="center" valign="middle">Link! Link! Link!</td>						</tr>						<tr height="70">							<td width="200" align="center" valign="middle" height="70">								<dl>									<dt><a href="../../index.html"><img height="30" width="30" src="../../photo1/botan3.gif" border="0"></a>									<dt><font size="2">TATSU-CRAFT</font>									<dt><a href="../../index.html">G‰İ‚Ìƒy[ƒW‚Ö</a>								</dl>							</td>						</tr>						<tr height="30">							<td width="200" align="center" valign="middle" height="30"><font color="#3333ff">ƒz[ƒ€ƒVƒAƒ^[‚ÌŒf¦”Â‚Ö</font></td>						</tr>						<tr>							<td width="200" align="center" valign="middle">„‚Ö‚ÌMail‚Í‚±‚¿‚ç‚Ö</td>						</tr>						<tr height="30">							<td width="200" height="30" align="center" valign="middle"><a href="mailto:t-tomas@ta2.so-net.ne.jp">t-tomas@ta2.so-net.ne.jp</a></td>						</tr>						<tr>							<td width="200" align="center" valign="middle"><img src="/cgi-bin/nph-count?width=5&link=t-craft/tomas/tomas1.html" align="BOTTOM"></td>						</tr>						<tr height="40">							<td width="200" align="center" valign="middle" height="40">								<dl>									<dt><font color="#505050" size="2">‚±‚Ìƒz[ƒ€ƒy[ƒW‚Ìˆê•”‚ÉJava‚ğg—p‚µ‚Ä‚¢‚Ü‚·B</font>									<dt><font color="#505050" size="2">Netscape Navigator4.0^Internet Explorer4.0ˆÈã‚ğ‚¨‚·‚·‚ß‚µ‚Ü‚·B</font>								</dl>							</td>						</tr>					</table>					<p><br>				</td>			</tr>		</table>	</body></html>
+<html>
+
+	<head>
+    <meta charset="UTF-8">
+		<meta name="generator">
+		<title>PJãƒ©ãƒƒã‚¯ABOUT</title>
+		<csactions>
+			<csaction name="B4E216157" class="Open Window" type="ONEVENT" val0="gainen1.html" val1 val2="435" val3="525" val4="true" val5="true" val6="false" val7="false" val8="false" val9="false" val10="false">
+			<csaction name="B4E216158" class="Open Window" type="ONEVENT" val0="closed1.html" val1 val2="640" val3="490" val4="true" val5="true" val6="false" val7="false" val8="false" val9="false" val10="false">
+			<csaction name="B4E216159" class="Open Window" type="ONEVENT" val0="open1.html" val1 val2="610" val3="505" val4="true" val5="true" val6="false" val7="false" val8="false" val9="false" val10="false">
+			<csaction name="B4E2161510" class="Open Window" type="ONEVENT" val0="zentai1.html" val1 val2="695" val3="370" val4="true" val5="true" val6="false" val7="false" val8="false" val9="false" val10="false">
+		</csactions>
+		<csscriptdict>
+			<script><!--
+CSStopExecution = false;
+CSInit = new Array;
+function CSScriptInit() {
+if(typeof(skipPage) != "undefined") { if(skipPage) return; }
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);
+}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+function CSClickReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return true; // dont follow link
+	else return false; // dont follow link
+}
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}
+			if(i != 0)
+				self.status = CSIm[n][3];
+			else
+				self.status = " ";
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(action) {
+	im = action[1];
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=2;i<5;i++) {
+			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }
+			else CSIm[im][i-2] = 0;
+		}
+		CSIm[im][3] = action[5];
+	}
+}
+CSStopExecution = false;
+
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		if(actArray == null) return false; 
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+function CSOpenWindow(action) {
+	var wf = "";	
+	wf = wf + "width=" + action[3];
+	wf = wf + ",height=" + action[4];
+	wf = wf + ",resizable=" + (action[5] ? "yes" : "no");
+	wf = wf + ",scrollbars=" + (action[6] ? "yes" : "no");
+	wf = wf + ",menubar=" + (action[7] ? "yes" : "no");
+	wf = wf + ",toolbar=" + (action[8] ? "yes" : "no");
+	wf = wf + ",directories=" + (action[9] ? "yes" : "no");
+	wf = wf + ",location=" + (action[10] ? "yes" : "no");
+	wf = wf + ",status=" + (action[11] ? "yes" : "no");		
+	window.open(action[1],action[2],wf);
+}
+// --></script>
+		</csscriptdict>
+		<csactiondict>
+			<script><!--
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button',/*URL*/'../HITOSI/photo1B.jpg',/*URL*/'',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button2',/*URL*/'../HITOSI/photo2B.jpg',/*URL*/'',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button3',/*URL*/'../HITOSI/photo3B.jpg',/*URL*/'',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button4',/*URL*/'../HITOSI/photo4B.jpg',/*URL*/'',/*URL*/'','');
+CSAct[/*CMP*/ 'B4E216157'] = new Array(CSOpenWindow,/*URL*/ 'gainen1.html','',435,525,true,true,false,false,false,false,false);
+CSAct[/*CMP*/ 'B4E216158'] = new Array(CSOpenWindow,/*URL*/ 'closed1.html','',640,490,true,true,false,false,false,false,false);
+CSAct[/*CMP*/ 'B4E216159'] = new Array(CSOpenWindow,/*URL*/ 'open1.html','',610,505,true,true,false,false,false,false,false);
+CSAct[/*CMP*/ 'B4E2161510'] = new Array(CSOpenWindow,/*URL*/ 'zentai1.html','',695,370,true,true,false,false,false,false,false);
+
+// --></script>
+		</csactiondict>
+	</head>
+
+	<body text="#333333" bgcolor="white" link="#3333ff" onload="CSScriptInit();">
+		<table width="700" border="0" cellspacing="0" cellpadding="0">
+			<tr height="314">
+				<td width="80" height="314" align="center" valign="top"><img height="600" width="78" src="../HITOSI/Theater.gif"></td>
+				<td width="10" bgcolor="#6699ff" align="center" valign="top" height="314"><img src="../../photo1/4_6.gif" width="4" height="8" align="BOTTOM" border="0" naturalsizeflag="3"></td>
+				<td width="610" align="center" height="314">
+					<table width="700" border="0" cellspacing="0" cellpadding="2">
+						<tr height="150">
+							<td align="center" height="150" width="610">
+								<dl>
+									<dt><font size="6" color="#5c68ed">è‡ªä½œãƒ›ãƒ¼ãƒ ã‚·ã‚¢ã‚¿ãƒ¼</font>
+								</dl>
+								<center>
+									<p><font size="2" color="#5c68ed">[<csobj w="41" h="13" t="DateTime" format="ShortDate" region="14">00.3.26</csobj>æ›´æ–°]</font></p>
+									<p><font size="2">
+									<hr>
+									</font></center>
+							</td>
+						</tr>
+						<tr height="77">
+							<td bgcolor="white" width="610" align="center" height="77">
+								<table border="0" cellpadding="0" cellspacing="2" width="467">
+									<tr height="60">
+										<td height="60" colspan="2" align="center" valign="middle">è‡ªä½œã®æ ¼ç´ãƒ©ãƒƒã‚¯ã§ã™ãŒã€å–ã‚Šæ€¥ãå†™çœŸã ã‘UPã—ã¦ã¿ã¾ã—ãŸã€‚
+											<p>è£½ä½œéç¨‹ã«ã¤ã„ã¦ã¯ã€å¾Œæ—¥ã‚ã‚‰ãŸã‚ã¦æ²è¼‰ã—ã¾ã™ã€‚</td>
+									</tr>
+									<tr height="50">
+										<td height="50" colspan="2" align="center" valign="middle">
+											<dl>
+												<dt>ãã‚Œãã‚Œã®ç”»åƒã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨æ‹¡å¤§ç”»åƒãŒé–‹ãã¾ã™ã€‚
+												<dt><font size="2">(åˆ¥ã®ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ãŒé–‹ãã¾ã™)</font>
+												<dt><font size="2"><br>
+												</font>
+												<dt><font size="2">JavaãŒä½¿ãˆãªã„ãƒ–ãƒ©ã‚¦ã‚¶ã®æ–¹ã¯ã“ã¡ã‚‰ã‹ã‚‰</font>
+												<dt><a href="gainen1.html"><font size="2">[æ¦‚å¿µå›³]</font></a><font size="2">ãƒ»<a href="closed1.html">[æ‰‰ã‚’é–‰ã˜ãŸã¨ã“ã‚]</a>ãƒ»<a href="open1.html">[æ‰‰ã‚’é–‹ã„ãŸã¨ã“ã‚]</a>ãƒ»<a href="zentai1.html">[å…¨ä½“]</a></font>
+											</dl>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2" align="center" valign="middle">
+											<hr>
+										</td>
+									</tr>
+									<tr>
+										<td width="161" align="center" valign="middle" bgcolor="#6699ff"><font color="white">
+											<table border="0" cellpadding="0" cellspacing="2" width="155" height="150">
+												<tr height="72">
+													<td height="72" align="center" valign="middle"><font color="white">æ¦‚å¿µå›³</font></td>
+												</tr>
+												<tr height="50%">
+													<td valign="middle" height="50%"><font color="white" size="2">ãƒ”ãƒ³ã‚¯ã®éƒ¨åˆ†ã¯é›»å‹•ãƒ¬ãƒ³ã‚ºã‚·ãƒ•ãƒˆãƒ¦ãƒ‹ãƒƒãƒˆ(äºˆå®š)ã®ä½ç½®ã§ã™ã€‚</font></td>
+												</tr>
+											</table>
+											</font></td>
+										<td width="300" align="center" valign="middle"><csobj w="200" h="218" t="Button" csmdown="B4E216157"><a href="#" onmouseover="return CSIShow(/*CMP*/'button',1)" onmouseout="return CSIShow(/*CMP*/'button',0)" onclick="return CSButtonReturn()" onmousedown="CSAction(new Array(/*CMP*/'B4E216157'));"><img src="../HITOSI/photo1B.jpg" width="200" height="218" name="button" border="0"></a></csobj></td>
+									</tr>
+									<tr>
+										<td colspan="2" align="center" valign="middle">
+											<hr>
+										</td>
+									</tr>
+									<tr>
+										<td width="161" align="center" valign="middle" bgcolor="#6699ff"><font color="white">
+											<table border="0" cellpadding="0" cellspacing="2" width="155" height="150">
+												<tr height="72">
+													<td height="72" align="center" valign="middle"><font color="white">æ‰‰ã‚’é–‰ã˜ãŸã¨ã“ã‚</font></td>
+												</tr>
+												<tr height="50%">
+													<td valign="middle" height="50%"><font color="white" size="2">ä¸‹ã‹ã‚‰ãƒ­ãƒƒã‚¯ãƒ”ãƒ³ã‚’å·®ã—è¾¼ã‚“ã§å›ºå®šã—ã¾ã™ã€‚ææ–™ã¯ãƒ‘ã‚¤ãƒ³é›†æˆæã€ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ã‚¿ãƒ¼ã‚’å«ã‚€ç·é‡é‡ã¯24ã‚­ãƒ­(æ£šæ¿ã‚’å«ã¾ãš)ã§ã™ã€‚</font></td>
+												</tr>
+											</table>
+											</font></td>
+										<td width="300" align="center" valign="middle"><csobj w="300" h="199" t="Button" csmdown="B4E216158"><a href="#" onmouseover="return CSIShow(/*CMP*/'button2',1)" onmouseout="return CSIShow(/*CMP*/'button2',0)" onclick="return CSButtonReturn()" onmousedown="CSAction(new Array(/*CMP*/'B4E216158'));"><img src="../HITOSI/photo2B.jpg" width="300" height="199" name="button2" border="0"></a></csobj></td>
+									</tr>
+									<tr>
+										<td colspan="2" align="center" valign="middle">
+											<hr>
+										</td>
+									</tr>
+									<tr>
+										<td width="161" align="center" valign="middle" bgcolor="#6699ff"><font color="white">
+											<table border="0" cellpadding="0" cellspacing="2" width="100%" height="62">
+												<tr height="50%">
+													<td height="50%" align="center" valign="middle"><font color="white">æ‰‰ã‚’é–‹ã„ãŸã¨ã“ã‚</font></td>
+												</tr>
+											</table>
+											</font></td>
+										<td width="300" align="center" valign="middle"><csobj w="200" h="150" t="Button" csmdown="B4E216159"><a href="#" onmouseover="return CSIShow(/*CMP*/'button3',1)" onmouseout="return CSIShow(/*CMP*/'button3',0)" onclick="return CSButtonReturn()" onmousedown="CSAction(new Array(/*CMP*/'B4E216159'));"><img src="../HITOSI/photo3B.jpg" width="200" height="150" name="button3" border="0"></a></csobj></td>
+									</tr>
+									<tr>
+										<td colspan="2" align="center" valign="middle">
+											<hr>
+										</td>
+									</tr>
+									<tr>
+										<td width="161" align="center" valign="middle" bgcolor="#6699ff"><font color="white">
+											<table border="0" cellpadding="0" cellspacing="2" width="155" height="122">
+												<tr height="45">
+													<td height="45" align="center" valign="middle"><font color="white">å…¨ä½“</font></td>
+												</tr>
+												<tr height="50%">
+													<td valign="middle" height="50%"><font color="white" size="2">æ£šæ¿ã¯ã¾ã ã¨ã‚Šã¤ã‘ã¦ã„ã¾ã›ã‚“ã€‚å¼·åº¦ã¯ã€ä¸¡ã‚µã‚¤ãƒ‰ã®ã‚¹ãƒšãƒ¼ã‚¹ã«ã«å°å­¦ç”ŸãŒã¶ã‚‰ä¸‹ãŒã£ã¦ã‚‚ã³ãã¨ã‚‚ã—ã¾ã›ã‚“ï¼</font></td>
+												</tr>
+											</table>
+											</font></td>
+										<td width="300" align="center" valign="middle"><csobj w="300" h="128" t="Button" csmdown="B4E2161510"><a href="#" onmouseover="return CSIShow(/*CMP*/'button4',1)" onmouseout="return CSIShow(/*CMP*/'button4',0)" onclick="return CSButtonReturn()" onmousedown="CSAction(new Array(/*CMP*/'B4E2161510'));"><img src="../HITOSI/photo4B.jpg" width="300" height="128" name="button4" border="0"></a></csobj></td>
+									</tr>
+									<tr height="30">
+										<td align="center" valign="middle" height="30" colspan="2"><font color="#333333">è£½ä½œéç¨‹ã¯ãƒ»ãƒ»ãƒ»ãƒ»</font><font color="#333333" size="2">ãŸã ã„ã¾</font><font color="#333333"><img height="16" width="44" src="../HITOSI/kouzi.gif" align="texttop"></font></td>
+									</tr>
+								</table>
+								<p>
+								<hr>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr height="150">
+				<td width="80" height="150"></td>
+				<td width="10" bgcolor="#6699ff" height="150"><img src="../../photo1/4_6.gif" width="4" height="8" align="BOTTOM" border="0" naturalsizeflag="3"></td>
+				<td width="610" height="150" align="center" valign="middle">
+					<table border="0" cellpadding="0" cellspacing="5" width="500">
+						<tr height="30">
+							<td width="200" height="30" align="center" valign="middle">Link! Link! Link!</td>
+						</tr>
+						<tr height="70">
+							<td width="200" align="center" valign="middle" height="70">
+								<dl>
+									<dt><a href="../../index.html"><img height="30" width="30" src="../../photo1/botan3.gif" border="0"></a>
+									<dt><font size="2">TATSU-CRAFT</font>
+									<dt><a href="../../index.html">é›‘è²¨ã®ãƒšãƒ¼ã‚¸ã¸</a>
+								</dl>
+							</td>
+						</tr>
+						<tr height="30">
+							<td width="200" align="center" valign="middle" height="30"><font color="#3333ff">ãƒ›ãƒ¼ãƒ ã‚·ã‚¢ã‚¿ãƒ¼ã®æ²ç¤ºæ¿ã¸</font></td>
+						</tr>
+						<tr>
+							<td width="200" align="center" valign="middle">ç§ã¸ã®Mailã¯ã“ã¡ã‚‰ã¸</td>
+						</tr>
+						<tr height="30">
+							<td width="200" height="30" align="center" valign="middle"><a href="mailto:t-tomas@ta2.so-net.ne.jp">t-tomas@ta2.so-net.ne.jp</a></td>
+						</tr>
+						<tr>
+							<td width="200" align="center" valign="middle"><img src="/cgi-bin/nph-count?width=5&link=t-craft/tomas/tomas1.html" align="BOTTOM"></td>
+						</tr>
+						<tr height="40">
+							<td width="200" align="center" valign="middle" height="40">
+								<dl>
+									<dt><font color="#505050" size="2">ã“ã®ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸ã®ä¸€éƒ¨ã«Javaã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚</font>
+									<dt><font color="#505050" size="2">Netscape Navigator4.0ï¼Internet Explorer4.0ä»¥ä¸Šã‚’ãŠã™ã™ã‚ã—ã¾ã™ã€‚</font>
+								</dl>
+							</td>
+						</tr>
+					</table>
+					<p><br>
+				</td>
+			</tr>
+		</table>
+	</body>
+
+</html>
