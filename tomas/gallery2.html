@@ -1,1 +1,93 @@
-<html>	<head>		<meta http-equiv="content-type" content="text/html;charset=x-sjis">		<meta name="generator" content="Adobe GoLive 4">		<title>gallery</title>		<csactions>			<csaction name="BDBD57DE1" class="Close Window" type="onevent">		</csactions>		<csscriptdict>			<script><!--function CSClickReturn () {	var bAgent = window.navigator.userAgent; 	var bAppName = window.navigator.appName;	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))		return true; // dont follow link	else return false; // dont follow link}CSStopExecution = false;function CSAction(array) { 	return CSAction2(CSAct, array);}function CSAction2(fct, array) { 	var result;	for (var i=0;i<array.length;i++) {		if(CSStopExecution) return false; 		var actArray = fct[array[i]];		if (actArray == null) return false;		var tempArray = new Array;		for(var j=1;j<actArray.length;j++) {			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {				if(actArray[j][0] == "VAR") {					tempArray[j] = CSStateArray[actArray[j][1]];				}				else {					if(actArray[j][0] == "ACT") {						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));					}				else					tempArray[j] = actArray[j];				}			}			else				tempArray[j] = actArray[j];		}					result = actArray[0](tempArray);	}	return result;}CSAct = new Object;function CSCloseWindow() { if (self.parent.frames.length != 0) {	self.parent.close()		} else {	window.close()	}}// --></script>		</csscriptdict>		<csactiondict>			<script><!--CSAct[/*CMP*/ 'BDBD57DE1'] = new Array(CSCloseWindow);// --></script>		</csactiondict>	</head>	<body text="#333333" bgcolor="white" link="#3333ff" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0">		<center>			<br>			<table border="0" cellspacing="1" cellpadding="1" bgcolor="#747474">				<tr height="177">					<td align="center" height="177" nowrap bgcolor="black"><img src="photo/image/gallely_2.jpg" width="640" height="480" border="0"></td>				</tr>				<tr>					<td align="center" nowrap bgcolor="black">						<table border="0" cellpadding="0" cellspacing="0" width="300">							<tr>								<td align="center"><a href="gallery1.html"><img src="photo/icon/back.gif" width="100" height="21" border="0"></a></td>								<td align="center"><a href="#" onclick="CSAction(new Array(/*CMP*/'BDBD57DE1'));return CSClickReturn();" csclick="BDBD57DE1"><img src="photo/icon/close.gif" width="100" height="21" border="0"></a></td>								<td align="center"><a href="gallery3.html"><img src="photo/icon/next.gif" width="100" height="21" border="0"></a></td>							</tr>						</table>					</td>				</tr>			</table>		</center>	</body></html>
+<html>
+
+	<head>
+    <meta charset="UTF-8">
+		<meta name="generator">
+		<title>gallery</title>
+		<csactions>
+			<csaction name="BDBD57DE1" class="Close Window" type="onevent">
+		</csactions>
+		<csscriptdict>
+			<script><!--
+function CSClickReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return true; // dont follow link
+	else return false; // dont follow link
+}
+
+CSStopExecution = false;
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		if (actArray == null) return false;
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+
+function CSCloseWindow() { 
+if (self.parent.frames.length != 0) {
+	self.parent.close()	
+	} else {
+	window.close()
+	}
+}
+
+// --></script>
+		</csscriptdict>
+		<csactiondict>
+			<script><!--
+CSAct[/*CMP*/ 'BDBD57DE1'] = new Array(CSCloseWindow);
+
+// --></script>
+		</csactiondict>
+	</head>
+
+	<body text="#333333" bgcolor="white" link="#3333ff" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0">
+		<center>
+			<br>
+			<table border="0" cellspacing="1" cellpadding="1" bgcolor="#747474">
+				<tr height="177">
+					<td align="center" height="177" nowrap bgcolor="black"><img src="photo/image/gallely_2.jpg" width="640" height="480" border="0"></td>
+				</tr>
+				<tr>
+					<td align="center" nowrap bgcolor="black">
+						<table border="0" cellpadding="0" cellspacing="0" width="300">
+							<tr>
+								<td align="center"><a href="gallery1.html"><img src="photo/icon/back.gif" width="100" height="21" border="0"></a></td>
+								<td align="center"><a href="#" onclick="CSAction(new Array(/*CMP*/'BDBD57DE1'));return CSClickReturn();" csclick="BDBD57DE1"><img src="photo/icon/close.gif" width="100" height="21" border="0"></a></td>
+								<td align="center"><a href="gallery3.html"><img src="photo/icon/next.gif" width="100" height="21" border="0"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+
+</html>
